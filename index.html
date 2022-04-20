@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodorot</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Pomodorot</h1>
+      <h1>
+        <p id="minutes" class="timer">25</p>
+        <p id="dois-pontos" class="timer">:</p>
+        <p id="secounds" class ="timer">00</p>
+      </h1>
+      <button id="button-start" class="button">Start</button>
+      <button id="button-pause" class="button">Pause</button>
+      <button id="button-five-minutes" class="button">Short Break</button>
+      <button id="button-fifteen-minutes" class="button">Long Break</button>
+      <button id="button-reset" class="button">Reset</button>
+      <audio id="bell" src="bellnoise.wav"></audio>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
